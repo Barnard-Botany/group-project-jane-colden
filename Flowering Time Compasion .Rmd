@@ -1,0 +1,94 @@
+
+```{r}
+#install.packages("BIEN")
+library("BIEN")
+library(ape) #Package for working with phylogenies in R
+library(maps) #Useful for making quick maps of occurrences
+library(sp) # A package for spatial data
+#vignette("BIEN")
+```
+
+
+```{r}
+Rubus_odoratus_PFB <- BIEN_trait_traitbyspecies(trait = "plant flowering begin", species = "Verbena hastata")
+head(Rubus_odoratus_PFB)
+tail(Rubus_odoratus_PFB)
+str(Rubus_odoratus_PFB)
+```
+
+```{r}
+Verbena_hastata_PFB <- BIEN_trait_traitbyspecies(trait = "plant flowering begin", species = "Verbena hastata")
+head(Verbena_hastata_PFB)
+tail(Verbena_hastata_PFB)
+str(Verbena_hastata_PFB)
+```
+
+```{r}
+Polygala_senega_PFB <- BIEN_trait_traitbyspecies(trait = "plant flowering begin", species = "Verbena hastata")
+head(Polygala_senega_PFB)
+tail(Polygala_senega_PFB)
+str(Polygala_senega_PFB)
+```
+
+```{r}
+Ludwigia_palustris_PFB <-BIEN_trait_traitbyspecies(trait = "plant flowering begin", species = "Verbena hastata")
+head(Ludwigia_palustris_PFB)
+tail(Ludwigia_palustris_PFB)
+str(Ludwigia_palustris_PFB)
+```
+
+```{r}
+Staphylea_trifolia_PFB <- BIEN_trait_traitbyspecies(trait = "plant flowering begin", species = "Verbena hastata")
+head(Staphylea_trifolia_PFB)
+tail(Staphylea_trifolia_PFB)
+str(Staphylea_trifolia_PFB)
+```
+
+```{r}
+Aralia_nudicaulis_PFB <- BIEN_trait_traitbyspecies(trait = "plant flowering begin", species = "Verbena hastata")
+head(Aralia_nudicaulis_PFB)
+tail(Aralia_nudicaulis_PFB)
+str(Aralia_nudicaulis_PFB)
+```
+
+```{r}
+Kalmia_angustifolia_PFB <- BIEN_trait_traitbyspecies(trait = "plant flowering begin", species = "Verbena hastata")
+head(Kalmia_angustifolia_PFB)
+tail(Kalmia_angustifolia_PFB)
+str(Kalmia_angustifolia_PFB)
+```
+
+```{r}
+Monarda_didyma_PFB <- BIEN_trait_traitbyspecies(trait = "plant flowering begin", species = "Verbena hastata")
+head(Monarda_didyma_PFB)
+tail(Monarda_didyma_PFB)
+str(Monarda_didyma_PFB)
+```
+
+```{r}
+Verbascum_blattaria_PFB <- BIEN_trait_traitbyspecies(trait = "plant flowering begin", species = "Verbena hastata")
+head(Verbascum_blattaria_PFB)
+tail(Verbascum_blattaria_PFB)
+str(Verbascum_blattaria_PFB)
+```
+
+```{r}
+Mimulus_ringens_PFB <- BIEN_trait_traitbyspecies(trait = "plant flowering begin", species = "Verbena hastata")
+head(Mimulus_ringens_PFB)
+tail(Mimulus_ringens_PFB)
+str(Mimulus_ringens_PFB)
+```
+
+```{r}
+Pedicularis_canadensis_PFB <- BIEN_trait_traitbyspecies(trait = "plant flowering begin", species = "Verbena hastata")
+head(Pedicularis_canadensis_PFB)
+tail(Pedicularis_canadensis_PFB)
+str(Pedicularis_canadensis_PFB)
+```
+
+```{r}
+Ambrosia_artemisiifolia_PFB <- BIEN_trait_traitbyspecies(trait = "plant flowering begin", species = "Verbena hastata")
+head(Ambrosia_artemisiifolia_PFB)
+tail(Ambrosia_artemisiifolia_PFB)
+str(Ambrosia_artemisiifolia_PFB)
+```
